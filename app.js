@@ -1,7 +1,6 @@
 var amigos = []
 
 function adicionarAmigo() {
-    console.log('Botão apertado');
     let amigo = document.getElementById("amigo").value;
     
     if (validaInput(amigo)){
@@ -18,21 +17,24 @@ function adicionarAmigo() {
 
 
 function sortearAmigo(){
+    let amigoSorteado = Math.floor(Math.random() * amigos.length);
+    let lista = document.getElementById("resultado").innerHTML;
+    lista = lista + "<li>"+amigos[amigoSorteado]+"</li>";
 
-    console.log('Botão apertadinho');
+    document.getElementById("resultado").innerHTML = lista;
 }
 
 function validaInput(amigo){
     if(validaCampoVazio(amigo) || validaNomeRepitido(amigo)){
         return true 
     }
-    amigos.push(amigo)
+    amigos.push(amigo);
     return false 
 }
 
 function validaCampoVazio(amigo){ 
     if(amigo == '' || amigo == "" || amigo.length === 0 ) {
-        alert('Por favor, escreva um nome!')
+        alert('Por favor, escreva um nome!');
         return true
     }else{ 
         return false
