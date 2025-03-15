@@ -1,12 +1,11 @@
 # onealuralatam-desafio-amigosecreto
 <div align="center">
 
-# 🔄 Aplicação Proxy da API de Avaliações V2
+# 🔄 Challenge Desafio do Amigo Secreto - One Alura-LATAM
 
-Uma aplicação proxy robusta em Node.js 18 para conectar gateways legados e modernizados de forma eficiente.
+Uma aplicação html/css/javascript para aprendizado da linguagem e suas atribuições
 
 [Começar](#começando) •
-[Documentação](#documentação) •
 [Contribuir](#contribuindo) •
 [Suporte](#suporte)
 
@@ -18,23 +17,17 @@ Uma aplicação proxy robusta em Node.js 18 para conectar gateways legados e mod
 
 ## 🚀 Sobre o Projeto
 
-Esta aplicação proxy foi desenvolvida para resolver o desafio específico de conectar sistemas legados com arquiteturas modernizadas. Algumas características principais:
+Esta aplicação HTML foi desenvolvida para resolver o desafio específico de sortear um amigo, em uma página HTML, usando CSS e linguagem JavaScript:
 
-* **Compatibilidade Garantida** - Gerencia seamlessly a comunicação entre X-Gateway e Y-Gateway
-* **Performance Otimizada** - Desenvolvido com Node.js 18 para máxima eficiência
-* **Fácil Manutenção** - Código organizado e bem documentado
-* **Altamente Configurável** - Flexível para diferentes cenários de uso
+* **Projeto Acadêmico** - Gerencia seamlessly a comunicação entre X-Gateway e Y-Gateway
+* **Escrito em JavaScript** - Aprendi que JavaScript da vida a páginas HTML e stylizadas em CSS
+* **Stylo em CSS** - CSS economiza muito trabalho!
+* **Fácil para Iniciantes** - Esse projeto é ideal para iniciantes e nos dá abertura para praticar e entregar algo concreto 
 
-### Fluxo de Dados
-```mermaid
-graph LR
-    A[X-Gateway] --> B[Proxy] --> C[Y-Gateway]
-```
 
 ### 🛠️ Construído Com
 
-* [Node.js 18](https://nodejs.org/)
-* [Express](https://expressjs.com/)
+* [JavaScript](https://www.w3schools.com/js/)
 
 ## 🏁 Começando
 
@@ -42,47 +35,28 @@ Siga estas instruções para ter uma cópia do projeto rodando em sua máquina l
 
 ### Pré-requisitos
 
-* Node.js 18
-* NPM (geralmente vem com Node.js)
-```bash
-npm install npm@latest -g
-```
+* VS Code 
+* Extensão: Live Server
+
 
 ### Instalação
 
 1. Clone o repositório
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/VictorGalvao-97/onealuralatam-desafio-amigosecreto.git
 ```
 
-2. Instale as dependências
-```bash
-npm install
-```
-
-3. Inicie a aplicação
-```bash
-npm run start
-```
 
 ## 📁 Estrutura do Projeto
 
 ```
 projeto/
-├── configmap/                # Configurações do ambiente
 ├── src/
-│   ├── config/               # Configurações da aplicação
-│   ├── services/             # Serviços externos
-│   └── server.js             # Ponto de entrada
-└── [package.json, README.md, .npmrc, .iupipes.yml, .gitignore]
+│   ├── assets/              
+│   ├── app.js            
+│   └── index.html
+│   └── style.css   
 ```
-
-## 📚 Documentação
-
-Para mais informações, consulte:
-
-* [Documentação de Jornadas Cloud Pública PaaS](https://github-pages-dev.cloud.itau.com.br/itau-up2-docs/docs/documentacao/jornadas/cloud-publica/paas/)
-* [Documentação da Plataforma PaaS 2.0](https://github-pages-dev.cloud.itau.com.br/itau-ev3-doc-docplataformapaas/paas20/_print/#pg-6e50a82b6da04e8a5ebc5f32a1a5c376)
 
 ## 🤝 Contribuindo
 
@@ -92,14 +66,11 @@ Para mais informações, consulte:
 4. Push para a Branch (`git push origin feature/sua-branch`)
 5. Abra um Pull Request
 
-## 📫 Suporte
-
-Para suporte e questões, por favor abra uma issue no repositório ou contate a equipe responsável.
 
 </br>
 </br>
 </br>
 
 <div align="center">
-Desenvolvido com ❤️ pela Equipe de Biometria
+Desenvolvido com ❤️ por Victor Galvão
 </div>
