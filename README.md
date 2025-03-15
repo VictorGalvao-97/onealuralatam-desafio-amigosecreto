@@ -19,7 +19,7 @@ Uma aplicação html/css/javascript para aprendizado da linguagem e suas atribui
 
 Esta aplicação HTML foi desenvolvida para resolver o desafio específico de sortear um amigo, em uma página HTML, usando CSS e linguagem JavaScript:
 
-* **Projeto Acadêmico** - Gerencia seamlessly a comunicação entre X-Gateway e Y-Gateway
+* **Projeto Acadêmico** - Com esse eu desenvolvi um projeto básico de front-end
 * **Escrito em JavaScript** - Aprendi que JavaScript da vida a páginas HTML e stylizadas em CSS
 * **Stylo em CSS** - CSS economiza muito trabalho!
 * **Fácil para Iniciantes** - Esse projeto é ideal para iniciantes e nos dá abertura para praticar e entregar algo concreto 
